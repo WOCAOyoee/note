@@ -55,5 +55,15 @@ export function request(config){
 ```vue
 import request from './network/http.js'
 
+request({
+	url: '/home/newdata'
+})
+.then(res => {
+	console.log(res)
+})
+.catch(err => {
+	console.log(err)
+	})
+
 ```
 
