@@ -49,9 +49,9 @@ ps:注意需要中dev 与 start 中同时添加
 
 ## 4.重新启动项目
 
-	```shell
-		npm run dev  |  npm run build | npm start
-	```
+```shell
+	npm run dev  |  npm run build | npm start
+```
  > 即可愉快的使用esm语法了.
 
 
